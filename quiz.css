@@ -1,0 +1,37 @@
+body {
+    background-color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px 20% 0px 20%;
+    cursor: default;
+} 
+/* Styling all element at once. */
+.question1, .question2, .question3, .question4, .question5, .question6, .question7, .question8, .question9, .question10 {
+    margin: 0px 0px 20px 0px;
+    border: solid black 5px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 5px 10px 0px 0px;
+    cursor: default;
+}
+/* Apply hover effect to all elements with classes starting with "question" */
+[class^="question"]:hover {
+    background-color: lightgoldenrodyellow;
+    box-shadow: none;
+    transform: translateX(7px) translateY(7px); /* Add a little animation */
+    transition: all 0.5s ease-in-out;
+}
+/* Styling buttons */
+input[type="button"] {
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 9px;
+    border: solid black 3px;
+}
+/* Putting psuedo-class in every buttons */
+input[type="button"]:active {
+    cursor: progress;
+    background-color: #f0d8b0;
+    color: white;
+    border-color: #f0d8b0;
+}
