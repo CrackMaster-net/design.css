@@ -5,7 +5,7 @@ body {
     cursor: default;
 } 
 /* Styling all element at once. */
-.question1, .question2, .question3, .question4, .question5, .question6, .question7, .question8, .question9, .question10 {
+[class^="question"] {
     margin: 0px 0px 20px 0px;
     border: solid black 5px;
     border-radius: 20px;
