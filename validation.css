@@ -1,0 +1,55 @@
+* {
+  text-decoration: none;
+}
+body {
+  font-family: 'Cascadia Code', Consolas, 'Courier New', monospace;
+}
+.container {
+  position: absolute;
+  top: 11%;
+  left: 39%;
+  border: solid dimgray 1px;
+  border-radius:5px;
+  box-shadow: 0px 0px 21px 1px;
+  padding: 4%;
+}
+input[type="text"], input[type="password"] {
+  padding: 10px 0px 10px 20px;
+  margin: 0px 0px 20px 0px;
+  border-radius: 8px;
+  border: none;
+  border: solid black 1px;
+}
+button[type="submit"] {
+  padding: 10px 80px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 0px;
+}
+.forgot-password {
+  margin: 0px 0px 0px 30px;
+  font-size: 15px;
+}
+.forgot-password:hover {
+  text-decoration: underline;
+}
+.create-account {
+  position: absolute;
+  top: 65%;
+  left: 570px;
+  border-radius: 7px;
+  background-color: green;
+  color: white;
+  font-size: 24px;
+  padding: 10px 13px;
+}
+.messages {
+  position: absolute;
+  top: 75%;
+  left: 39%;
+  opacity: 0.7;
+  font-weight: 900;
+  font-size: 15px;
+}
