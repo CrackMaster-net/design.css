@@ -1,3 +1,4 @@
+/*Project Number 1*/
 body {
     background-color: dimgray;
     margin: 0px 0px 0px 10px;
@@ -28,4 +29,131 @@ input[type="text"] {
 }
 div {
     display: flex;
+}
+
+/*Project Number 2*/
+body {
+	background-color: dimgrey;
+	cursor: default;
+}
+h1 {
+	margin: 20px 0px 0px 20px;
+}
+fieldset {
+	border-radius: 10px;
+}
+button[type="button"] {
+	
+}
+[class^="input"] {
+	background-color: dimgrey;
+	border: none;
+	border-bottom: solid black 1px;
+}
+button[type="button"] {
+	border-radius: 10px;	
+	font-size: 15px;
+	background-color: black;
+	color: white;
+	border: solid white 1px;
+	cursor: pointer;
+}
+input[type="reset"] {
+	cursor: pointer;
+	background-color: black;
+	border: solid white 1px;
+	border-radius: 10px;
+}
+input[type="reset"]:active {
+	cursor: progress;
+}
+/*calculator2.css*/
+body {
+	background-color: dimgrey;
+	cursor: default;
+}
+h1 {
+	margin: 20px 0px 0px 20px;
+}
+fieldset {
+	border-radius: 10px;
+}
+button[type="button"] {
+	
+}
+[class^="input"] {
+	background-color: dimgrey;
+	border: none;
+	border-bottom: solid black 1px;
+}
+button[type="button"] {
+	border-radius: 10px;	
+	font-size: 15px;
+	background-color: black;
+	color: white;
+	border: solid white 1px;
+	cursor: pointer;
+}
+input[type="reset"] {
+	cursor: pointer;
+	background-color: black;
+	border: solid white 1px;
+	border-radius: 10px;
+}
+input[type="reset"]:active {
+	cursor: progress;
+}
+/*Project Number 3*/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.calculator {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+  height: 50px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  text-align: right;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 5px;
+  margin: 0px 0px 10px 0px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+button:active {
+  background-color: #666;
 }
